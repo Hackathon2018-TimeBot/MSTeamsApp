@@ -1,0 +1,52 @@
+{
+    "$schema": "https://statics.teams.microsoft.com/sdk/v1.2/manifest/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.2",
+    "version": "1.3.2",
+    "id": "519ee9f8-db47-4787-9cad-bc14857c44b4",
+    "packageName": "TimeBot",
+    "developer": {
+        "name": "Michael",
+        "websiteUrl": "http://www.microsoft.com",
+        "privacyUrl": "https://www.team.com/privacy",
+        "termsOfUseUrl": "https://www.team.com/termsofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "TimeBot",
+        "full": ""
+    },
+    "description": {
+        "short": "TimeBot",
+        "full": "TimeBot helps you to adjust your bookings, updates your forecast and supports target achievement"
+    },
+    "accentColor": "#00B294",
+    "staticTabs": [
+        {
+            "entityId": "TimeBotCalendar",
+            "name": "Calendar",
+            "contentUrl": "https://web.powerapps.com/apps/6fc5f930-ac1c-4377-98e7-5a496eeca4c2",
+            "websiteUrl": "https://web.powerapps.com/apps/6fc5f930-ac1c-4377-98e7-5a496eeca4c2",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "bots": [
+        {
+            "botId": "0a04e749-b103-478c-a3e2-14cba8075d72",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "web.powerapps.com"
+    ]
+}
